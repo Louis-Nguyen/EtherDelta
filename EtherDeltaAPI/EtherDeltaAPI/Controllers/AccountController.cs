@@ -27,7 +27,7 @@ namespace EtherDeltaAPI.Controllers
             bool result = _accountServices.createAccount(account);
             if (result)
             {
-                return Ok(account); 
+                return Ok(); 
             }
             else
             {
